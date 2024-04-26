@@ -1,0 +1,41 @@
+.tarjeta__box--img{
+    width: 25vw;
+    height: 13vw;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.tarjeta__boxlogo--img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.tarjeta__boxlogo{
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta__box h5{
+    font-weight: 700;
+    font-size: large;
+}
+
+.tarjeta__box p{
+    font-weight: 400;
+}
+
+.section1__box h4{
+    font-weight: 700;
+}
+
+.tarjeta__boxlogo p{
+    padding-left: 10px;
+    font-weight: 500;
+}

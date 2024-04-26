@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    margin: 20px 60px 20px 60px;
+}
+
+@media screen and (max-width: 720px) {
+    section {
+      flex-direction: column;
+    }
+  }
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.section1__box--img{
+    width: 50vw;
+    border-radius: 15px;
+    height: 25vw;
+}
+
+.section1__box2--img{
+    width: 20vw;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+
+.section1__box2{
+    display: flex;
+}
+
+.section1__logo--img{
+    width: 3rem;
+    margin-right: 10px;
+    border-radius: 50px;
+    
+}
+
+.section1__logo{
+    display: flex;
+}
+
+.section1__box2{
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-left: 80px;
+}
+
+.logo__box p{
+    padding-left: 5px;
+}
+
+
+/*---------Categorías-------------*/
+
+
+
+.categoria__box--img{
+    width: 60px;
+    padding: 10px;
+}
+
+.categoria__box{
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.categoria p{
+    padding-left: 10px;
+}
+
+.html{
+    background-color: #E93E30;
+}
+
+.javascript{
+    background-color: #F7E018;
+}
+
+.css{
+    background-color: #299ED5;
+}
+
+.react{
+    background-color: #292C33;
+}
+
+.vue{
+    background-color: #67C770;
+}
+
+.boostrap{
+    background-color: #563D7C;
+}
+
+.categoria__box p{
+    padding: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-style: normal;
+    width: 20vw;
+     
+}
+
+.titulos{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: larger
+       
+}
+
+.titulo__catego{
+    padding-right: 184px;
+}
+
+.titulo__popular{
+    padding-right: 395px;
+}
+
+.subscripcion{
+    background-color: #63AF2B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 70vw;
+    height: 10vw;
+    border-radius: 30px;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    margin: auto;
+}
+
+.subscripcion__box{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
